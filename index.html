@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <title>COSC 116</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+} 
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, Verdana, "Trebuchet MS", sans-serif;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: rgb(246, 245, 250);
+              background:url('https://cdn.pixabay.com/photo/2017/11/02/10/37/binary-2910663__340.jpg');
+              padding: 20px;
+              text-align: center;
+              font-size: 30px;
+              color: rgb(255, 255, 255);
+            }
+            
+            /* Container for flexboxes */
+            section {
+              display: -webkit-flex;
+              display: flex;
+            }
+            
+            /* Style the navigation menu */
+            nav {
+              -webkit-flex: 1;
+              -ms-flex: 1;
+              flex: 1;
+              padding: 20px;
+            }
+            
+            /* Style the list inside the menu */
+            nav ul {
+              list-style-type: none;
+              padding: 0;
+            }
+            
+            /* Style the content */
+            article {
+              -webkit-flex: 3;
+              -ms-flex: 3;
+              flex: 3;
+              padding: 10px;
+            }
+            
+            /* Style the footer */
+            footer {
+    
+              padding: 10px;
+              text-align: center;
+              color: rgb(17, 16, 16);
+            }
+            
+            /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+            @media (max-width: 600px) {
+              section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+              }
+            }
+            </style>
+            </head>
+            <body>
+            
+            <header>
+                <h2>COSC 116</h2>
+                
+            </header>
+            
+            <section>
+              <nav>
+                  <h3><a href="home.html">Home</a></h3>
+                
+                
+              </nav>
+              
+              <article>
+                <h3 style=color:MediumSeaGreen >About Course</h3>
+                <p><a href="#">Syllabus</a></p>
+                <p>Lecture:T TH 11:00am-12:15pm. Henson Hall 109 </p>
+                <p>Lab: W 11:00am-12:45pm. Henson Hall 150 </p>
+                <p><b>Required Textbook</b> </p>
+                <p>New Perspectives on Computer Concepts 2018: Introductory (20th ed.), by June Jamrich Parsons, ISBN 9781305956391 :
+                <a href="https://www.amazon.com/New-Perspectives-Computer-Concepts-2018/dp/1305951514" target="_blank">Amazon</a> </p>
+
+                <p><b>Recommended Textbooks</b></p>
+                <p>Technology for Success: Computer Concepts (1st ed.), by Jennifer T. Campbell, ISBN: 9780357124826 </p>
+                <p> <a href="http://www.bitsbook.com/excerpts/" target ="_blank">Blown to Bits by Hal Abelson, etc. </a> </p>
+    
+                <h3 style=color:MediumSeaGreen>Resources</h3>
+                <p><b>MS Excel</b></p>
+                <ul>
+                  <li><a href="https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb" target ="_blank">Microsoft Excel Video Training </a>
+                </li>
+                <li><a href="https://www.excel-easy.com" target ="_blank">Excel Easy Tutorial </a> </li>
+               </ul>
+                
+                <p><b>MS Access</b></p>
+                <ul> 
+                  <li><a href=" https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6" target ="_blank">Microsoft Access Video Training </a> </li>
+                 <li> <a href="https://edu.gcfglobal.org/en/access2016/" target ="_blank">GCF Global Access 2016 Tutorial</a></li>
+                 </ul>
+                
+                <p><b>HTML & CSS</b></p>
+                <ul>
+                  <li><a href="https://doc.yonyoucloud.com/doc/howtocodeinhtml.com/index.html" target ="_blank">How to Code in HTML5 and CSS3 by Damian Wielgosik </a></li> 
+                  <li><a href="https://open.umn.edu/opentextbooks/textbooks/203" target ="_blank">The Missing Link: An Introduction to Web Development and Programming by Michael Mendez</a></li>
+                  <li><a href="https://www.w3schools.com/html/" target ="_blank">W3School HTML</a> </li>
+                   <li><a href="https://www.w3schools.com/css/" target ="_blank">W3School CSS</a> </li> 
+    
+                </ul>
+               
+                <p><b>Python</b></p>
+                <ul>
+                  <li> <a href="https://greenteapress.com/wp/think-python-2e/" target ="_blank">Think Python: How to think like a Computer Scientist by Allen B. Downey: </a> </li>
+                  <li>  
+                    <a href="https://www.py4e.com/book" target ="_blank">Python for Everybody: Exploring Data Usng Python 3 by Dr. Charles R. Severance: </a> </li>  
+                </ul>
+                 
+                <p><b>Required Software</b></p>
+              <ul>
+                <li>Microsoft 20216 or updated version(Word,Excel, Access)</li>
+              <li>
+                <a href="https://get.adobe.com/reader/?promoid=TTGWL47M" target="_blank">Adobe PDF reader </a>
+              </li>
+              <li>
+                <a href="https://notepad-plus-plus.org/downloads/v8.1.1/" target="_blank">Notepad++ (for Window user)</a> or <a href="https://code.visualstudio.com/download"  target="_blank">Visual Studio Code(for mac user)</a>
+                </li> 
+                <li>
+                  <a href="https://winscp.net/eng/download.php" target="_blank">WinSCP (for Window user) </a> or <a href="https://filezilla-project.org/index.php " target="_blank"> FileZilla (for both Window and Mac)</a>
+              </li>   
+              <li>
+                <a href="https://www.python.org/downloads/" target="_blank">Python</a>
+
+              </li>
+              </ul>
+              
+                <h3 style=color:MediumSeaGreen>Assignments</h3>
+                <p>Homework 1: </p>
+                <p>Homework 2: </p>
+                <p>Homework 3: </p>
+                <p>Homework 4: </p>
+
+              <h3 style=color:MediumSeaGreen>Lecture Schedule</h3>
+               <table id="customers">
+                 <tr>
+                   <th>Week</th>
+                   <th>Topics</th>
+                   <th>Readings</th>
+                   <th>Files</th>
+                 </tr>
+                 <tr>
+                  <td>1</td>
+                  <td>Impact of Digital Technology & Digital Contents</td>
+                  <td>Textbook</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>A History of Computation, Computer Hardware Devices, von Neumann Computer Architecture/ Operating System, File Management and Software Applications and Apps</td>
+                  <td>Textbook</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Concept of Database</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Database Management System</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Review & Exam 1</td>
+                  <td>Textbook</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Internet, Browser, HTML</td>
+                  <td>Textbook</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Web Development: HTML</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Web Development CSS</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Review & Exam 2</td>
+                  <td>Textbook</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Introduction to computational thinking, problem solving strategies, software programming process. Python(Variables, Operators, Expression)</td>
+                  <td>Textbook</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Python (Data Structure, Condition, Iteration)</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>12 & 13</td>
+                  <td>Python(Functions, Files, Turtle Module)</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Python(Turtle Module), Exploration of digital communication, networking, digital transformation such as cloud, e-commerce, and AI</td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Discussion on digital citizenship such as ethical, legal, and social issues in digital world, Current Issues (Metaverse, Blockchain)
+                    </td>
+                  <td>Readings</td>>
+                  <td>Files</td>
+                </tr>
+                 </table>
+                
+
+
+              </article>
+            </section>
+            
+            <footer>
+                 </footer>
+            
+            </body>
+            </html>
+            
+            
